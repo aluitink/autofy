@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13C0082F-02EF-4B2E-9016-43A3EDDCB2E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AE9290C-9584-43CE-AB0E-028FB84E69D2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Autofy.Public.Api", "src\Autofy.Public.Api\Autofy.Public.Api.xproj", "{9AEEE89F-B209-4D9D-915F-3C6526632915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AEEE89F-B209-4D9D-915F-3C6526632915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEEE89F-B209-4D9D-915F-3C6526632915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEEE89F-B209-4D9D-915F-3C6526632915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEEE89F-B209-4D9D-915F-3C6526632915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AEEE89F-B209-4D9D-915F-3C6526632915} = {13C0082F-02EF-4B2E-9016-43A3EDDCB2E3}
+	EndGlobalSection
+EndGlobal
