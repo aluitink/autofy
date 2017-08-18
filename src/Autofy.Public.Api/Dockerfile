@@ -7,7 +7,7 @@ EXPOSE 80
 # Copy the app
 
 # Set the Working Directory
-WORKDIR /dotnetapp/Autofy.Public.Api
+WORKDIR /dotnetapp
 
 # Start the app
 ENTRYPOINT dotnet run
